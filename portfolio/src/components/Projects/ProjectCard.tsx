@@ -25,7 +25,7 @@ dark:border-gray-700
       </h3>
       <p className="mt-4 text-gray-600 dark:text-gray-400 leading-7">{description}</p>
       <div className="mt-6 flex flex-wrap gap-3">
-        {technologies.map((tag: string, index: number) => (
+        {technologies.map((tag: string) => (
           <SkillChip key={tag} label={tag} />
         ))}
       </div>
