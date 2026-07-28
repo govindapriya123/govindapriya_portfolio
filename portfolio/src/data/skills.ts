@@ -7,7 +7,7 @@ export const skillCategories=[
     },
     {
         id:2,
-        title:'BackeEnd',
+        title:'BackEnd',
         icon:"backend",
         skills:[
            "Java",

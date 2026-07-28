@@ -38,16 +38,6 @@ dark:border-gray-700
             </div>
           </Button>
         </a>
-        <a href={live} target="_blank" rel="noopener noreferrer">
-          <Button>
-            <div className="flex items-center gap-2">
-              <div className="flex items-center gap-2">
-                <FiExternalLink />
-                Live Demo
-              </div>
-            </div>
-          </Button>
-        </a>
       </div>
     </div>
   );

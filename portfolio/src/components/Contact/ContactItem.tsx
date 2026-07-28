@@ -29,10 +29,10 @@ const ContactItem = ({ type, value }: ContactItemProps) => {
           ? "noopener noreferrer"
           : undefined
       }
-      className="flex items-center gap-4 rounded-xl border border-gray-200 p-4 transition-all suration-300 hover:border-blue-500 hover:shadow-md dark:text-gray-400"
+      className="flex items-center gap-4 rounded-xl border border-gray-200 p-4 transition-all duration-300 hover:border-blue-500 hover:shadow-md dark:text-gray-400"
     >
-      <Icon className="text-blue-600" size={22} />
-      <span className="text-gray-700 dark:text-gray-400">
+      <Icon className="text-blue-600 shrink-0" size={22} />
+      <span className=" flex-1 min-w-0 break-all text-gray-700 dark:text-gray-400">
     {value}
   </span>
     </a>

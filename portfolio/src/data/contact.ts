@@ -13,6 +13,6 @@ export const contact=[
     },
     {
     type:"linkedin",
-    value:"https://www.linkedin.com/in/govindapriya-korni"
+    value:"https://www.linkedin.com/in/korni-govindapriya"
     }
 ]

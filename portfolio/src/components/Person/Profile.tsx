@@ -11,9 +11,11 @@ const Person=()=>{
                     <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-400">{profile.role}</h2>
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-300">{profile.description}</p>
                 <div className="mt-8 flex flex-wrap gap-4">
+                    <a href="#projects">
                     <Button>
                         View Projects
                     </Button>
+                    </a>
                     <a href="/GK_Resume.pdf" download>
                         <Button variant="outline">
                             Download Resume
