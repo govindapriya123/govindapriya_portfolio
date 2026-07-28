@@ -10,7 +10,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 dark:border-gray-700
  p-8 shadow-sm bg-white transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
     >
-      <div className="overflow-hidden rounded-xl">
+      <div className="overflow-hidden rounded-xl mb-4">
         <img
           src={image}
           alt={title}
