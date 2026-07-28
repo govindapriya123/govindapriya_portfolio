@@ -1,9 +1,9 @@
 import Button from "../Common/Button/Button";
 import SkillChip from "../Common/SkillChip";
 import type { Project } from "../../types/project";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 export const ProjectCard = ({ project }: { project: Project }) => {
-  const { title, description, technologies, github, live, image } = project;
+  const { title, description, technologies, github, image } = project;
   return (
     <div
       className="rounded-2xl border border-gray-200 dark:bg-gray-900
